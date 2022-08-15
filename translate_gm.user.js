@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Translate GM
-// @version      0.1
+// @version      0.2
 // @description  Translate GM
 // @author		 Phost
 // @updateURL	 https://github.com/2phost/mh-gh-translator/raw/main/translate_gm.user.js
@@ -14,6 +14,7 @@
 		[/Carte/gi, "Map"],
 		[/Sauvegarder/gi, "Save"],
         [/Plans de chantiers/gi, "Blueprints"],
+        [/Plans de chantier/gi, "Blueprints"],
         [/Mise à jour/gi, "Update"],
         [/Ville/gi, "Town"],
         [/Citoyens/gi, 'Citizens'],
