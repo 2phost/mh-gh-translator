@@ -225,11 +225,8 @@
         [/Croix en Chocolat/gi, "Chocolate Cross"],
         [/Éclairage public/gi, "Public lights"],
         [/Aucun bonus spécial/gi, "No special bonus"],
-        [/L'organisation de la défense est basique, le gain de la défense total de la ville passe à 10%./gi, "The total defence of the town is permanently increased by 10%."],
         [/Le Grand fossé apporte 10 points de défense./gi, "The Great Pit gives an additional 10 defence points."],
         [/La Muraille évolutive apporte 55 points de défense./gi, "The upgraded great wall gives an additional 55 defence points."],
-        [/Ajoute 5 rations d'eau dans le puits (une seule fois)./gi, "5 rations of water are added to the well (one time only)"],
-        [/La ville obtiendra 1 plan commun après l'attaque./gi, "The Town will receive 1 common blueprints after the atta
     ];
     var numTerms = replaceArry.length;
     var txtWalker = document.createTreeWalker (
