@@ -180,6 +180,7 @@
         [/Aucun bonus spécial/gi, "No special bonus"],
 		[/Carte/gi, "Map"],
 		[/Sauvegarder/gi, "Save"],
+        [/Plans de chantiers dans les ruines/gi, "ERuin Blueprints"],
         [/Plans de chantiers/gi, "Blueprints"],
         [/Plans de chantier/gi, "Blueprints"],
         [/Mise à jour/gi, "Update"],
