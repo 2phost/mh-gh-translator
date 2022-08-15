@@ -3,6 +3,8 @@
 // @version      0.1
 // @description  Translate GM
 // @author		 Phost
+// @updateURL	 https://github.com/2phost/mh-gh-translator/raw/main/translate_gm.user.js
+// @downloadURL  https://github.com/2phost/mh-gh-translator/raw/main/translate_gm.user.js
 // @match        https://gest-hordes2.eragaming.fr/*
 // @grant        none
 // ==/UserScript==
