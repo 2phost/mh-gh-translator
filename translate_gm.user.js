@@ -11,6 +11,7 @@
 
 (function() {
     var replaceArry = [
+		[/Sauvegarder/gi, "Save"],
         [/Plans de chantiers/gi, "Blueprints"],
         [/Mise à jour/gi, "Update"],
         [/Ville/gi, "Town"],
