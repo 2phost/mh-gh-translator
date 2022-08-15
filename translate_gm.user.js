@@ -11,6 +11,7 @@
 
 (function() {
     var replaceArry = [
+        [/Plans de chantiers/gi, "Blueprints"],
         [/Ville/gi, "Town"],
         [/Citoyens/gi, 'Citizens'],
         [/Bâtiments/gi, 'Ruins'],
