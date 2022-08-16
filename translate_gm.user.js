@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Translate GM
-// @version      0.11
+// @version      0.12
 // @description  Translate GM
 // @author		 Phost
 // @updateURL	 https://github.com/2phost/mh-gh-translator/raw/main/translate_gm.user.js
@@ -63,7 +63,6 @@
         [/Viande indéfinissable/gi, "Unspecified Meat"],
         [/Toile de tente/gi, "Groundsheet"],
         [/Sac super-pratique/gi, "Ultra-Rucksack"],
-        [/Jerrycan/gi, "Full Jerrycan"],
         [/Planche tordue/gi, "Twisted Plank"],
         [/Ferraille/gi, "Wrought Iron"],
         [/Bombe à eau/gi, "Water Bomb"],
@@ -118,7 +117,7 @@
         [/Devastator \(vide\)/gi, "Devastator (empty)"],
         [/Devastator \(chargé\)/gi, "Devastator (loaded)"],
         [/Devastator incomplet/gi, "Devastator (incomplete)"],
-        [/Balise « Radius »/gi, "Radius Radar Beacon"],
+        [/Balise Radius/gi, "Radius Radar Beacon"],
         [/Fusée éclairante/gi, "Spy Flare"],
         [/Pompe à jerrycan \(prête\)/gi, "Jerrycan Gun (ready)"],
         [/Chaise Ektörp-Gluten/gi, "Ektorp-Gluten Chair"],
@@ -129,7 +128,7 @@
         [/Pavés de béton informes/gi, "Unshaped Concrete Blocks"],
         [/Médicament sans étiquette/gi, "Unlabelled Drug"],
         [/Paracétoïde 7g/gi, "Paracetoid 7g"],
-        [/Désherbant Ness-Quick/gi, "Ness-Quick Weedkiller"],
+        [/Diceherbant Ness-Quick/gi, "Ness-Quick Weedkiller"],
         [/Caisse de nourriture/gi, "Food Parcel"],
         [/Doggy-bag/gi, "Doggy Bag"],
         [/Paquet de chips molles/gi, "Packet of Soft Crisps"],
@@ -413,6 +412,7 @@
         [/Empêche les vols/gi, "Prevents thefts"],
         [/Laissez-passer/gi, "Admission ticket"],
         [/Toxine/gi, "Toxin"],
+        [/Jerrycan/gi, "Full Jerrycan"],
 
 		[/Douves/gi, "Great Moat"],
         [/Grand Fossé/gi, "Great Pit"],
