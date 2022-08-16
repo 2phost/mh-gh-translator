@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Translate GM
-// @version      0.9
+// @version      0.10
 // @description  Translate GM
 // @author		 Phost
 // @updateURL	 https://github.com/2phost/mh-gh-translator/raw/main/translate_gm.user.js
@@ -42,7 +42,7 @@
         [/Lampe de chevet éteinte/gi, "Bedside Lamp"],
         [/Tapis persan/gi, "Persian Rug"],
         [/Petite chaîne Hi-Fi en panne/gi, "Mini HI-Fi (Broken)"],
-        [/Chaîne de Porte + cadenas/gi, "Padlock and Chain"],
+        [/Chaîne de Porte \+ cadenas/gi, "Padlock and Chain"],
         [/Paillasson/gi, "Doormat"],
         [/Dés/gi, "Dice"],
         [/Moteur/gi, "Engine"],
@@ -74,7 +74,7 @@
         [/Viande humaine/gi, "Human Flesh"],
         [/Sac plastique/gi, "Plastic Bag"],
         [/Bombe à eau explosive/gi, "Exploding Water Bomb"],
-        [/Sac plastique + explosif/gi, "Plastic Bag and Semtex"],
+        [/Sac plastique \+ explosif/gi, "Plastic Bag and Semtex"],
         [/Tronçonneuse incomplète/gi, "Incomplete Chainsaw"],
         [/Batteur électrique incomplet/gi, "Electric Whisk (incomplete)"],
         [/Rustine/gi, "Duct Tape"],
