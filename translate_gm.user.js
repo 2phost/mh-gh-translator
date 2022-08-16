@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Translate GM
-// @version      0.12
+// @version      0.13
 // @description  Translate GM
 // @author		 Phost
 // @updateURL	 https://github.com/2phost/mh-gh-translator/raw/main/translate_gm.user.js
@@ -17,7 +17,6 @@
         [/Lance-Pile 1-PDTG \(Vide\)/gi, "Battery Launcher 1-ITF (empty)"],
         [/dont cassé/gi, "not broken"],
         [/Ration d'eau/gi, "Water Ration"],
-        [/Pile/gi, "Battery"],
         [/Boîte de conserve/gi, "Can"],
         [/Boîte de conserve ouverte/gi, "Open Can"],
         [/Lance-Pile 1-PDTG \(chargé\)/gi, "Battery Launcher 1-ITF (loaded)"],
@@ -413,6 +412,7 @@
         [/Laissez-passer/gi, "Admission ticket"],
         [/Toxine/gi, "Toxin"],
         [/Jerrycan/gi, "Full Jerrycan"],
+        [/Pile/gi, "Battery"],
 
 		[/Douves/gi, "Great Moat"],
         [/Grand Fossé/gi, "Great Pit"],
