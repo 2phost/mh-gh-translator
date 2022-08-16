@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Translate GM
-// @version      0.4
+// @version      0.5
 // @description  Translate GM
 // @author		 Phost
 // @updateURL	 https://github.com/2phost/mh-gh-translator/raw/main/translate_gm.user.js
@@ -178,13 +178,13 @@
         [/Croix en Chocolat/gi, "Chocolate Cross"],
         [/Eclairage public/gi, "Public lights"],
         [/Hôpital abandonné/gi, "Abandonned Hospital"],
-        [/Nuclear Bunker abandonné/gi, "Abandoned Hotel"],
+        [/Hôtel abandonné/gi, "Abandoned Hotel"],
         [/Nuclear Bunker abandonné/gi, "Abandoned Bunker"],
 		[/Carte/gi, "Map"],
 		[/Sauvegarder/gi, "Save"],
 		[/Annuler modification/gi, "Cancel"],
 		[/Vous êtes actuellement dans la/gi, "You are currently in the"],
-        [/Plans de chantiers dans les ruines/gi, "ERuin Blueprints"],
+        [/Plans de chantier dans les ruines/gi, "ERuin Blueprints"],
         [/Plans de chantiers/gi, "Blueprints"],
         [/Plans de chantier/gi, "Blueprints"],
         [/Mise à jour/gi, "Update"],
