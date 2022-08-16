@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Translate GM
-// @version      0.13
+// @version      0.14
 // @description  Translate GM
 // @author		 Phost
 // @updateURL	 https://github.com/2phost/mh-gh-translator/raw/main/translate_gm.user.js
@@ -11,6 +11,8 @@
 
 (function() {
     var replaceArry = [
+        [/Journal/gi, "Gazette"],
+
         [/Empreinte de décapsuleur/gi, "Bottle Opener Blank"],
         [/Moteur incomplet/gi, "Engine (incomplete)"],
         [/Caddie bancal/gi, "Wonky Shopping Trolley"],
