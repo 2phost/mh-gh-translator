@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Translate GM
-// @version      0.6
+// @version      0.7
 // @description  Translate GM
 // @author		 Phost
 // @updateURL	 https://github.com/2phost/mh-gh-translator/raw/main/translate_gm.user.js
@@ -11,6 +11,7 @@
 
 (function() {
     var replaceArry = [
+        [/Lance-Pile 1-PDTG (vide)/gi, "Battery Launcher 1-ITF (empty)"],
         [/Ration d'eau/gi, "Water Ration"],
         [/Pile/gi, "Battery"],
         [/Boîte de conserve/gi, "Can"],
@@ -108,7 +109,6 @@
         [/Aqua-Splash (1 charge)/gi, "Aqua-Splash (1 shot)"],
         [/Batteur électrique (éteint)/gi, "Electric Whisk (no battery)"],
         [/Tronçonneuse (éteinte)/gi, "Chainsaw (empty)"],
-        [/Lance-Pile 1-PDTG (vide)/gi, "Battery Launcher 1-ITF (empty)"],
         [/Taser d'auto-défense (éteint)/gi, "Taser (incomplete)"],
         [/Sport-élec (éteint)/gi, "EMS System (incomplete)"],
         [/Sport-élec (chargé)/gi, "EMS System (charged)"],
