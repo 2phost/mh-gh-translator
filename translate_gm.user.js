@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Translate GM
-// @version      0.10
+// @version      0.11
 // @description  Translate GM
 // @author		 Phost
 // @updateURL	 https://github.com/2phost/mh-gh-translator/raw/main/translate_gm.user.js
@@ -11,6 +11,9 @@
 
 (function() {
     var replaceArry = [
+        [/Empreinte de décapsuleur/gi, "Bottle Opener Blank"],
+        [/Moteur incomplet/gi, "Engine (incomplete)"],
+        [/Caddie bancal/gi, "Wonky Shopping Trolley"],
         [/Lance-Pile 1-PDTG \(Vide\)/gi, "Battery Launcher 1-ITF (empty)"],
         [/dont cassé/gi, "not broken"],
         [/Ration d'eau/gi, "Water Ration"],
@@ -80,7 +83,6 @@
         [/Rustine/gi, "Duct Tape"],
         [/Tondeuse démontée/gi, "Dismantled Mower"],
         [/Tube de cuivre/gi, "Copper Pipe"],
-        [/Caddie bancal/gi, "Wonky Shopping Trolley"],
         [/Ceinture à poches/gi, "Utility Belt"],
         [/Twinoïde 500mg/gi, "Twinoid 500mg"],
         [/Boîte en métal/gi, "Metal Chest"],
@@ -171,7 +173,6 @@
         [/Balise Radius Mark II \(déchargé\)/gi, "Radius Mark II (incomplete)"],
         [/Balise Radius Mark II/gi, "Radius Mark II"],
         [/Brico'Facile/gi, "Kwik-fix"],
-        [/Moteur incomplet/gi, "Engine (incomplete)"],
         [/Vieille machine à laver/gi, "Old Washing Machine"],
         [/Four cancérigène/gi, "Carcinogenic Oven"],
         [/Réfrigérateur d'étudiant/gi, "Beer Fridge"],
@@ -382,7 +383,6 @@
         [/Organiser les défenses/gi, "Organize defence"],
         [/Purifier/gi, "Clean"],
         [/Nettoyer/gi, "Clean"],
-        [/Empreinte de décapsuleur/gi, "Bottle Opener Blank"],
         [/Appareil photo d'avant-guerre/gi, "Pre-war camera"],
         [/La banque de la ville/gi, "Send to the Bank"],
         [/Utiliser/gi, "Use"],
