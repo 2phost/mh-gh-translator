@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Translate GM
-// @version      0.3
+// @version      0.4
 // @description  Translate GM
 // @author		 Phost
 // @updateURL	 https://github.com/2phost/mh-gh-translator/raw/main/translate_gm.user.js
@@ -177,16 +177,22 @@
         [/Clôture/gi, "Fence"],
         [/Croix en Chocolat/gi, "Chocolate Cross"],
         [/Eclairage public/gi, "Public lights"],
-        [/Aucun bonus spécial/gi, "No special bonus"],
+        [/Hôpital abandonné/gi, "Abandonned Hospital"],
+        [/Nuclear Bunker abandonné/gi, "Abandoned Hotel"],
+        [/Nuclear Bunker abandonné/gi, "Abandoned Bunker"],
 		[/Carte/gi, "Map"],
 		[/Sauvegarder/gi, "Save"],
+		[/Annuler modification/gi, "Cancel"],
+		[/Vous êtes actuellement dans la/gi, "You are currently in the"],
         [/Plans de chantiers dans les ruines/gi, "ERuin Blueprints"],
         [/Plans de chantiers/gi, "Blueprints"],
         [/Plans de chantier/gi, "Blueprints"],
         [/Mise à jour/gi, "Update"],
+        [/Mis à jour par/gi, "Updated by"],
         [/Ville/gi, "Town"],
         [/Citoyens/gi, 'Citizens'],
         [/Bâtiments/gi, 'Ruins'],
+        [/jour/gi, 'day'],
     ];
     var numTerms = replaceArry.length;
     var txtWalker = document.createTreeWalker (
