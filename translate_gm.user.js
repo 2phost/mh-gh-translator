@@ -103,7 +103,7 @@
         [/Légume suspect/gi, "Suspicious-looking Vegetable"],
         [/Kit de bricolage (abimé)/gi, "Repair Kit (damaged)"],
         [/Kit de bricolage/gi, "Repair Kit"],
-        [/Pistolet à eau (vide)/gi, "Water Pistol (empty)"],
+        [/Pistolet à eau (Vide)/gi, "Water Pistol (empty)"],
         [/Aqua-Splash (3 charges)/gi, "Aqua-Splash (3 shots)"],
         [/Aqua-Splash (2 charges)/gi, "Aqua-Splash (2 shots)"],
         [/Aqua-Splash (1 charge)/gi, "Aqua-Splash (1 shot)"],
