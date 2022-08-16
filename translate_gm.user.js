@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Translate GM
-// @version      0.14
+// @version      0.15
 // @description  Translate GM
 // @author		 Phost
 // @updateURL	 https://github.com/2phost/mh-gh-translator/raw/main/translate_gm.user.js
@@ -370,13 +370,6 @@
         [/Cuisiner/gi, "Cook"],
         [/Potion chamanique/gi, "Mystic Potion"],
         [/Vodka Marinostov/gi, "Vodka Marinostov"],
-        [/Trèfle/gi, "Clubs"],
-        [/Pique/gi, "Spades"],
-        [/Cœur/gi, "Hearts"],
-        [/Carreau/gi, "Diamonds"],
-        [/Valet/gi, "Jack"],
-        [/Dame/gi, "Queen"],
-        [/Roi/gi, "King"],
         [/Arme de veille/gi, "Guard weapon"],
         [/Pts/gi, "Pts"],
         [/Se soigner/gi, "Heal"],
