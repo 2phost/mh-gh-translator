@@ -11,7 +11,8 @@
 
 (function() {
     var replaceArry = [
-        [/Lance-Pile 1-PDTG (vide)/gi, "Battery Launcher 1-ITF (empty)"],
+        [/Lance-Pile 1-PDTG (Vide)/gi, "Battery Launcher 1-ITF (empty)"],
+        [/dont cassé/gi, "not broken"],
         [/Ration d'eau/gi, "Water Ration"],
         [/Pile/gi, "Battery"],
         [/Boîte de conserve/gi, "Can"],
