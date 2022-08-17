@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Translate GM
-// @version      0.16
+// @version      0.17
 // @description  Translate GM
 // @author		 Phost
 // @updateURL	 https://github.com/2phost/mh-gh-translator/raw/main/translate_gm.user.js
@@ -405,7 +405,6 @@
         [/Augmente la défense/gi, "Increases defense"],
         [/Empêche les vols/gi, "Prevents thefts"],
         [/Laissez-passer/gi, "Admission ticket"],
-        [/Toxine/gi, "Toxin"],
         [/Jerrycan/gi, "Full Jerrycan"],
         [/Pile/gi, "Battery"],
 
@@ -582,6 +581,7 @@
 		[/Sauvegarder/gi, "Save"],
 		[/Annuler modification/gi, "Cancel"],
 		[/Vous êtes actuellement dans la/gi, "You are currently in the"],
+        [/Toxine/gi, "Toxin"],
         [/Plans de chantier dans les ruines/gi, "ERuin Blueprints"],
         [/Plans de chantiers/gi, "Blueprints"],
         [/Plans de chantier/gi, "Blueprints"],
