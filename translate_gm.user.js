@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Translate GM
-// @version      0.15
+// @version      0.16
 // @description  Translate GM
 // @author		 Phost
 // @updateURL	 https://github.com/2phost/mh-gh-translator/raw/main/translate_gm.user.js
@@ -413,7 +413,6 @@
         [/Grand Fossé/gi, "Great Pit"],
         [/Muraille rasoir/gi, "Grater"],
         [/Fosse à Pieux/gi, "Spiked Pit"],
-        [/Appâts/gi, "Bait"],
         [/Barbelés/gi, "Barbed Wire"],
         [/Remparts avancés/gi, "Wall Upgrade v2"],
         [/Grogro mur/gi, "Überwall"],
@@ -549,6 +548,7 @@
         [/Piston calibré/gi, "Last-Minute Lock"],
         [/Piston verrou/gi, "Automatic Piston Lock"],
         [/Conduite d'aération/gi, "Ventilation System"],
+        [/Appâts/gi, "Bait"],
         [/Portail/gi, "Portal Lock"],
         [/Lit de camp/gi, "Camp Bed"],
         [/Tente/gi, "Tent"],
