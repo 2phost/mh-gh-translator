@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Translate GM
-// @version      0.18
+// @version      0.19
 // @description  Translate GM
 // @author		 Phost
 // @updateURL	 https://github.com/2phost/mh-gh-translator/raw/main/translate_gm.user.js
@@ -12,6 +12,7 @@
 (function() {
     var replaceArry = [
         [/Journal/gi, "Gazette"],
+        [/Hôtel de ville/gi, "Town Hall"],
 
         [/Empreinte de décapsuleur/gi, "Bottle Opener Blank"],
         [/Moteur incomplet/gi, "Engine (incomplete)"],
@@ -591,6 +592,18 @@
         [/Citoyens/gi, 'Citizens'],
         [/Bâtiments/gi, 'Ruins'],
         [/jour/gi, 'day'],
+        [/Banque/gi, 'Bank'],
+        [/Ruine/gi, 'ERuin'],
+        [/Statistiques/gi, 'Statistics'],
+        [/Outils/gi, 'Tools'],
+        [/Réparations/gi, 'Reparations'],
+        [/Veilles/gi, 'Watches'],
+        [/Décharges/gi, 'Dumps'],
+        [/Créations/gi, 'Creations'],
+        [/Inscriptions/gi, 'Registrations'],
+        [/Gestions/gi, 'Managements'],
+        [/Enciclopédie/gi, 'Wiki'],
+        [/Chantiers/gi, 'Constructions Site'],
     ];
     var numTerms = replaceArry.length;
     var txtWalker = document.createTreeWalker (
