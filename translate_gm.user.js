@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Translate GM
-// @version      0.19
+// @version      0.20
 // @description  Translate GM
 // @author		 Phost
 // @updateURL	 https://github.com/2phost/mh-gh-translator/raw/main/translate_gm.user.js
@@ -602,8 +602,9 @@
         [/Créations/gi, 'Creations'],
         [/Inscriptions/gi, 'Registrations'],
         [/Gestions/gi, 'Managements'],
-        [/Enciclopédie/gi, 'Wiki'],
+        [/Encyclopédie/gi, 'Wiki'],
         [/Chantiers/gi, 'Constructions Site'],
+        [/Déconnexion/gi, 'Logout'],
     ];
     var numTerms = replaceArry.length;
     var txtWalker = document.createTreeWalker (
